@@ -30,13 +30,54 @@ The main application source code is available in [`app.py`](app.py).
 
 GitHub: https://github.com/MOKSHITH122/SmartLocality
 
+
+
 ## Running the Project
 
-1. Install Python on your computer.
-2. Download or clone this repository.
-3. Open a terminal in the project folder.
-4. Install the required dependencies once a `requirements.txt` file is provided.
-5. Run the Flask application using the command documented in the project setup instructions.
+### Prerequisites
+- Python 3.10 or newer
+- pip (Python package installer)
+
+### Setup Instructions
+
+1. Clone or download this repository.
+2. Open a terminal in the project folder.
+3. Create a virtual environment:
+
+   ```bash
+   python -m venv .venv
+   ```
+
+4. Activate the environment.
+
+   **Windows:**
+   ```powershell
+   .\.venv\Scripts\Activate.ps1
+   ```
+
+   **macOS/Linux:**
+   ```bash
+   source .venv/bin/activate
+   ```
+
+5. Install dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+6. Start the application:
+
+   ```bash
+   python app.py
+   ```
+
+7. Open the local address printed in the terminal in your web browser.
+
+### Notes
+- The SQLite database and uploaded complaint images are stored locally and should not be committed to the public repository.
+- Some features may require an internet connection.
+- Follow any additional configuration required by the application.
 
 ## Privacy and Data
 

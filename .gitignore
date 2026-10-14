@@ -1,0 +1,31 @@
+# Private complaint database and uploaded images
+locality.db
+*.db
+*.sqlite
+*.sqlite3
+uploads/
+**/uploads/
+
+# Python environment and cache
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+
+# Secrets and local environment variables
+.env
+.env.*
+!.env.example
+instance/
+
+# Android and IDE build files
+.gradle/
+**/build/
+local.properties
+.idea/
+*.iml
+
+# Operating system files
+.DS_Store
+Thumbs.db
